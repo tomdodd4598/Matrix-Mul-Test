@@ -2,8 +2,8 @@
 
 if [[ $# -eq 0 ]]; then
     mkdir -p build
-    ./build.sh release Release &
-    # ./build.sh debug Debug &
+    ./matmul_build.sh release Release &
+    # ./matmul_build.sh debug Debug &
     wait
     exit 0
 else
