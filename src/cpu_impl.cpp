@@ -3,6 +3,7 @@
 
 #include <algorithm>
 #include <complex>
+#include <vector>
 
 constexpr usize TILE_SIZE = 32;
 

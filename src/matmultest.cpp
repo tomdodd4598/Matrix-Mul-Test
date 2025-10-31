@@ -5,6 +5,7 @@
 
 #include <complex>
 #include <iostream>
+#include <vector>
 
 int main(int argc, char** argv) {
     const usize dim = 120 * 120;
