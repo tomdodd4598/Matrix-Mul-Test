@@ -2,8 +2,8 @@
 
 if [[ $# -eq 0 ]]; then
     mkdir -p build
-    ./gbs_build.sh release Release &
-    # ./gbs_build.sh debug Debug &
+    ./build.sh release Release &
+    # ./build.sh debug Debug &
     wait
     exit 0
 else
